@@ -1,0 +1,12 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: sans-serif;
+	flex-wrap: wrap;
+}
+.result{
+	font-size: 3em;
+}

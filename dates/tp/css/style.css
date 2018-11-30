@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+caption{
+	border: 1px solid black;
+}
+table{
+	min-width: 600px;
+}
+
+tr,td{
+	text-align: center;
+}
+td{
+	border: 1px solid black;
+}
+thead{
+	background-color: lightgrey;
+}
+form{
+	margin-bottom: 30px;
+}

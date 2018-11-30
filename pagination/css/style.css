@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	width: 100%;
+	font-size: 1.2em;
+	margin:30px 0 30px 0;
+}
+body{
+	font-family: sans-serif;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+article{
+	width: 22%;
+	background-color: lightgrey;
+	margin-bottom: 30px;
+	padding: 0;
+}
+article header{
+	background-color: black;
+	color: white;
+	padding: 15px 0;
+}
+ article header h2 {
+ 	font-size: 1em;
+ 	padding: 5px 30px;
+ 	margin: 0;
+}
+article p {
+	font-size: 0.8em;
+	padding: 5px 30px;
+	line-height: 1.4em;
+}
+article footer {
+	background-color: grey;
+}
+article footer p {
+	font-weight: bold;
+	padding: 15px 30px;
+	margin: 0;
+	color: white;
+}
+
+.pagination{
+	width: 100%;
+}
+.pagination ul{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+.pagination ul li{
+	margin: 0 15px;
+}
+.pagination ul li a{
+	text-decoration: none;
+	color: black;
+	transition: all 0.3s ease;
+}
+
+.pagination ul li a:hover{
+	text-decoration: none;
+	color: black;
+	text-decoration: underline;
+	transition: all 0.3s ease;
+}
